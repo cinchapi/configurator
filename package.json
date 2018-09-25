@@ -1,6 +1,6 @@
 {
   "name": "@cinchapi/configurator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A javascript library for handling configuration in various formats (e.g. properties, json, yaml, etc) sourced from multiple files.",
   "main": "index.js",
   "files": [
