@@ -1,15 +1,30 @@
 {
-  "name": "configurator",
+  "name": "@cinchapi/configurator",
   "version": "1.0.0",
   "description": "A javascript library for handling configuration in various formats (e.g. properties, json, yaml, etc) sourced from multiple files.",
   "main": "index.js",
-  "repository": "https://github.com/cinchapi/config-js",
+  "files": [
+    "index.js",
+    "lib/",
+    "bin/"
+  ],
+  "bin": {
+    "configurator": "bin/configurator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinchapi/configurator.git"
+  },
   "author": "Cinchapi Inc.",
-  "license": "Apache 2.0",
-  "private": true,
+  "license": "Apache-2.0",
   "dependencies": {
     "argparse": "^1.0.10",
     "js-yaml": "^3.12.0",
     "object-path": "^0.11.4"
-  }
+  },
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/cinchapi/configurator/issues"
+  },
+  "homepage": "https://github.com/cinchapi/configurator#readme"
 }
