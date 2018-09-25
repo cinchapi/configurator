@@ -9,7 +9,7 @@
     "bin/"
   ],
   "bin": {
-    "configurator": "bin/configurator.js"
+    "configurator": "bin/configurator"
   },
   "repository": {
     "type": "git",
